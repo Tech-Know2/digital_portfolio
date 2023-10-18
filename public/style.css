@@ -1,5 +1,19 @@
+#landing-text{
+    color: black;
+    padding-left: 8%;
+    padding-top: 3%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Verdana", Sans-serif;
+}
+
+#hero-header-element{
+    display: block;
+}
+
 body {
     background-color: lightgrey;
+    font-size: 16px;
 }
 
 ul {
@@ -8,13 +22,14 @@ ul {
     padding: 0;
     overflow: hidden;
     display: flex;
-    justify-content: space-around; /* or use justify-content: space-evenly; */
+    justify-content: space-around;
 }
 
 li a {
     display: block;
     color: black;
     text-transform: uppercase;
+    font-family: "Verdana", Sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,11 +37,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: gray;
+    background-color: darkgrey;
     border-radius: 90px;
 }
 
 .active {
-    background-color: darkgrey;
+    background-color: grey;
     border-radius: 90px;
 }
