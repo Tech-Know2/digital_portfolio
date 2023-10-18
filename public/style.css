@@ -1,0 +1,32 @@
+body {
+    background-color: lightgrey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around; /* or use justify-content: space-evenly; */
+}
+
+li a {
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover:not(.active) {
+    background-color: gray;
+    border-radius: 90px;
+}
+
+.active {
+    background-color: darkgrey;
+    border-radius: 90px;
+}
