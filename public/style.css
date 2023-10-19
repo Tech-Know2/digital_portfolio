@@ -1,14 +1,41 @@
-#landing-text{
+#landing-text {
     color: black;
-    padding-left: 8%;
-    padding-top: 3%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5%;
     font-size: 3rem;
-    text-transform: uppercase;
     font-family: "Verdana", Sans-serif;
 }
 
-#hero-header-element{
+#hero-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-links li {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    border-radius: 90px;
+    margin: 10px;
+}
+
+#hero-links li a {
     display: block;
+    color: black;
+    font-family: "Verdana", Sans-serif;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#hero-header-element {
+    text-align: center;
 }
 
 body {
@@ -16,32 +43,68 @@ body {
     font-size: 16px;
 }
 
-ul {
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-li a {
+.nav-list li {
+    text-align: center;
+}
+
+.nav-list li a {
     display: block;
     color: black;
     text-transform: uppercase;
     font-family: "Verdana", Sans-serif;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
+    padding: 14px 16px;
 }
 
-li a:hover:not(.active) {
+.nav-list li a:hover:not(.active) {
     background-color: darkgrey;
     border-radius: 90px;
 }
 
-.active {
+.nav-list .active {
     background-color: grey;
     border-radius: 90px;
+}
+
+#about-me-filler li{
+    display: block;
+    color: black;
+    font-family: "Verdana", Sans-serif;
+    text-decoration: none;
+}
+
+#about-me-filler ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Verdana", Sans-serif;
+}
+
+#about-me-did {
+    max-width: 20%;
+}
+
+#about-me-did p {
+    font-size: 14px;
+}
+
+#about-me-want{
+    max-width: 20%;
+}
+
+#about-me-want p {
+    font-size: 14px;
 }
